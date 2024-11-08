@@ -1,42 +1,63 @@
-/* Autor:  Orlando Urbano Trejo (Lando)
- * Fecha:  25-07-2023 
+/* Autor: Orlando Urbano Trejo (Lando)
+ * Fecha: 25-07-2023 
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Hacer un programa que simule un cajero automatico con un saldo inicila de 1000 */
+ * Ejercicio: Hacer un programa que simule un cajero automático con un saldo inicial de 1000 */
 
 #include <stdio.h>
 
-int main(){
-	 puts("------CAJERO AUTOMATICO------");
-	 puts("1) Ingresar dinero");
-	 puts("2) Retirar dinero");
-	 puts("3) Salir");
+int main() {
+    int Opcion;
+    float Depositar, Saldo = 1000, Nuevo_Saldo;
 
-	 int Opcion;
-    float Depositar, Saldo = 1000, Nuevo_Saldo = 0;
-	 puts("Elige un opcion");
-	 scanf("%d",&Opcion);
-	 if(Opcion == 1){
-	 	  puts("¿Cuanto dinero vas a ingresar?");
-		  scanf("%f",&Depositar);
-		  Nuevo_Saldo = Saldo + Depositar;
-		  printf("Tu nuevo saldo es de: $%.2f\n",Nuevo_Saldo);
-	 }
-	 else if(Opcion == 2){
-	     puts("¿Cuanto dinero vas a retirar?");
-        scanf("%f",&Depositar);
-        if(Depositar  > 1000){
-		      puts("Saldo insuficiente, Intenta otra vez");
-		  }
-		  else{
-		      Nuevo_Saldo = Saldo - Depositar;
-            printf("Tu nuevo saldo es de: $%.2f\n",Nuevo_Saldo);
-		  }
-	 }
-	 else if(Opcion == 3){
-	 }
-	 else{
-	     puts("Opcion Invalida");
-	 }
+    // Menú del cajero automático
+    do {
+        puts("------CAJERO AUTOMATICO------");
+        puts("1) Ingresar dinero");
+        puts("2) Retirar dinero");
+        puts("3) Salir");
+
+        // Solicita la opción del usuario
+        puts("Elige una opción:");
+        scanf("%d", &Opcion);
+
+        switch (Opcion) {
+            case 1:
+                // Opción para ingresar dinero
+                puts("¿Cuánto dinero vas a ingresar?");
+                scanf("%f", &Depositar);
+                Nuevo_Saldo = Saldo + Depositar;
+                printf("Tu nuevo saldo es de: $%.2f\n", Nuevo_Saldo);
+                Saldo = Nuevo_Saldo; // Actualiza el saldo
+                break;
+            
+            case 2:
+                // Opción para retirar dinero
+                puts("¿Cuánto dinero vas a retirar?");
+                scanf("%f", &Depositar);
+                
+                // Verifica si el saldo es suficiente para el retiro
+                if (Depositar > Saldo) {
+                    puts("Saldo insuficiente, intenta otra vez.");
+                } else {
+                    Nuevo_Saldo = Saldo - Depositar;
+                    printf("Tu nuevo saldo es de: $%.2f\n", Nuevo_Saldo);
+                    Saldo = Nuevo_Saldo; // Actualiza el saldo
+                }
+                break;
+
+            case 3:
+                // Opción para salir
+                puts("Gracias por usar el cajero automático.");
+                break;
+
+            default:
+                // Opción inválida
+                puts("Opción inválida, intenta nuevamente.");
+                break;
+        }
+    } while (Opcion != 3); // Repite el menú hasta que elija salir
+
     return 0;
 }
+
