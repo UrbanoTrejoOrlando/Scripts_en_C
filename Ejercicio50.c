@@ -2,16 +2,22 @@
  * Fecha:  25-07-2023 
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Escribir una palabra y ver cuantos mide la cadena */
+ * Ejercicio: Escribir una palabra y ver cuántos caracteres tiene la cadena
+ */
 
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main() {
     char Palabra[15];
-	 int Cadena;
-	 puts("Ingresa un palabra: ");
-	 scanf("%s",&Palabra);
-	 Cadena = strlen(Palabra);
-	 printf("La cadena %s mide: %d\n",Palabra, Cadena);
+    int Longitud_Cadena;
+
+    puts("Ingresa una palabra: ");
+    scanf("%s", Palabra);  // Elimina el & porque Palabra ya es un puntero a char
+
+    Longitud_Cadena = strlen(Palabra);
+    printf("La cadena '%s' tiene %d caracteres.\n", Palabra, Longitud_Cadena);
+
+    return 0;
 }
+
