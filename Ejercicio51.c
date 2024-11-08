@@ -1,18 +1,40 @@
- /* Autor:  Orlando Urbano Trejo (Lando)
+/* Autor:  Orlando Urbano Trejo (Lando)
  * Fecha:  25-07-2023 
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Convierte a mayuscula cualquier cadena de texto */
+ * Ejercicio: Convierte a mayúscula y minúscula cualquier cadena de texto
+ */
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
-int main(){
-	 char Palabra[20];
-	 puts("Ingresa una palabra en mayuscula: ");
-	 fflush(stdin);
-	 scanf("%s",&Palabra);
-    printf("Cadena en Mayuscula: %s\n",Palabra);
-	 printf("Cadena en Minuscula: %s\n",strlen(Palabra));	 
-	 return 0;
+void convertirAMayuscula(char *cadena) {
+    for (int i = 0; i < strlen(cadena); i++) {
+        cadena[i] = toupper(cadena[i]);
+    }
 }
+
+void convertirAMinuscula(char *cadena) {
+    for (int i = 0; i < strlen(cadena); i++) {
+        cadena[i] = tolower(cadena[i]);
+    }
+}
+
+int main() {
+    char palabra[20];
+
+    printf("Ingresa una palabra: ");
+    scanf("%s", palabra);
+
+    printf("Cadena original: %s\n", palabra);
+
+    convertirAMayuscula(palabra);
+    printf("Cadena en mayúscula: %s\n", palabra);
+
+    convertirAMinuscula(palabra);
+    printf("Cadena en minúscula: %s\n", palabra);
+
+    return 0;
+}
+
