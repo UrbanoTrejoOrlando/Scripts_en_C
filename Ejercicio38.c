@@ -1,22 +1,30 @@
-/* Autor:  Orlando Urbano Trejo (Lando)
- * Fecha:  20-07-2023 
+/* Autor: Orlando Urbano Trejo (Lando)
+ * Fecha: 20-07-2023 
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Realizar la serie fibonacci */
+ * Ejercicio: Este programa genera la serie de Fibonacci hasta el término especificado por el usuario. */
 
 #include <stdio.h>
 
-int main(){
-	 int Numero, x = 0, y = 1, z = 1;
-	 puts("Numero: ");
-	 scanf("%d",&Numero);
-	 printf("1, ");
-	 for(int i = 1; i < Numero; i++){
-	     z = x + y;
- 		  x = y;
-        y = z;
-		 printf("%d, ",z);	  
-	 }
+int main() {
+    int numero, x = 0, y = 1, z;
 
-	 return 0;
+    // Solicita al usuario el número de términos a mostrar en la serie
+    puts("Introduce el número de términos de la serie Fibonacci: ");
+    scanf("%d", &numero);
+
+    // Imprime el primer término
+    printf("Serie Fibonacci: %d", x);
+
+    // Genera la serie de Fibonacci
+    for (int i = 1; i < numero; i++) {
+        printf(", %d", y);
+        z = x + y;  // Calcula el siguiente término
+        x = y;      // Actualiza los valores
+        y = z;
+    }
+
+    printf("\n");  // Nueva línea al finalizar la serie
+    return 0;
 }
+
