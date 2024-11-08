@@ -2,23 +2,25 @@
  * Fecha:  26-07-2023 
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Ingresa un numero, calcula e imprime su raiz cuadrada, si el numero es negativo imprimir un mensaje que diga "Tiene raiz imaginaria" */
+ * Ejercicio: Ingresa un número, calcula e imprime su raíz cuadrada. Si el número es negativo, imprime un mensaje que diga "Tiene raíz imaginaria". */
 
 #include <stdio.h>
 #include <math.h>
-// Metodo principal
-int main(){
-    float Numero, Resultado;
-    puts("Ingresa un numero:");
-    scanf("%f",&Numero);
-    if(Numero > 0){
-        Resultado = sqrt(Numero);
-        printf("La raiz cuadrada es: %.2f\n",Resultado);
-    }
-	 else{
-        puts("Es una raiz imaginario");
 
+// Método principal
+int main() {
+    float Numero, Resultado;
+
+    puts("Ingresa un número:");
+    scanf("%f", &Numero);
+
+    if (Numero >= 0) {
+        Resultado = sqrt(Numero);
+        printf("La raíz cuadrada es: %.2f\n", Resultado);
+    } else {
+        puts("Tiene raíz imaginaria");
     }
+
     return 0;
-}// Fin del metodo
+} // Fin del método
 
