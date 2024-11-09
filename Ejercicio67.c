@@ -1,40 +1,53 @@
-/* Autor:  Orlando Urbano Trejo (Lando)
+/*
+ * Autor:  Orlando Urbano Trejo (Lando)
  * Fecha:  26-07-2023
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Realiza un ejercicio que imprima una piramide de numeros */
+ * Descripción: Programa en C que imprime una pirámide de números de altura `n`.
+ */
 
 #include <stdio.h>
 
+// Función principal
 int main() {
-    int Numero, Posicion_Central, Numero_Posiciones, Posicion_Inicial, Posicion_Final;
-    puts("Ingresa un numero:");
-    scanf("%d", &Numero);
-    
-    Posicion_Central = Numero;
-    Numero_Posiciones = Numero * 2 - 1; 
-    Posicion_Inicial = Numero;
-    Posicion_Final = Numero;
-    
-    for (int i = 0; i < Numero; i++) {
-        int Contador = 1;
-        for (int j = 1; j <= Numero_Posiciones; j++) {
-            if (j < Posicion_Inicial || j > Posicion_Final) {
+    int numero, posicionCentral, numPosiciones, posicionInicial, posicionFinal;
+
+    // Solicitar al usuario que ingrese la altura de la pirámide
+    printf("Ingresa un número: ");
+    scanf("%d", &numero);
+
+    // Inicializar posiciones
+    posicionCentral = numero;
+    numPosiciones = numero * 2 - 1; 
+    posicionInicial = numero;
+    posicionFinal = numero;
+
+    // Construir la pirámide
+    for (int i = 0; i < numero; i++) {
+        int contador = 1;
+
+        // Generar cada línea de la pirámide
+        for (int j = 1; j <= numPosiciones; j++) {
+            // Imprimir espacios antes y después de los números
+            if (j < posicionInicial || j > posicionFinal) {
                 printf(" ");
             } else {
-                if (j < Numero) {
-                    printf("%d", Contador);
-                    Contador++;
+                // Imprimir números en orden ascendente hasta el centro y descendente después
+                printf("%d", contador);
+                if (j < posicionCentral) {
+                    contador++;
                 } else {
-                    printf("%d", Contador);
-                    Contador--;
+                    contador--;
                 }
             }
         }
+
+        // Cambiar las posiciones para la siguiente línea
         printf("\n");
-        Posicion_Final++;
-        Posicion_Inicial--;
+        posicionFinal++;
+        posicionInicial--;
     }
+
     return 0;
-}
+} // Fin de la función principal
 
