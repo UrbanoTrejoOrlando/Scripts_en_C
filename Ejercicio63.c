@@ -1,28 +1,29 @@
-/* Autor:  Orlando Urbano Trejo (Lando)
+/*
+ * Autor:  Orlando Urbano Trejo (Lando)
  * Fecha:  26-07-2023
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Escribir en lenguaje C un programa que:
-1) Pida por teclado una letra (dato caracter) del abecedario.
-2) Muestre por pantalla:
-"ES UNA VOCAL", cuando la letra introducida sea una vocal minuscula (a, e, i, o, u) o una vocal mayuscula (A, E, I, O, U).
-"NO ES UNA VOCAL", cuando la letra introducida no sea una vocal minuscula (a, e, i, o, u) ni una vocal mayuscula (A, E, I, O, U). */
+ * Descripción: Programa en C que pide una letra del abecedario y determina si es una vocal (mayúscula o minúscula).
+ */
 
 #include <stdio.h>
-#include <string.h>
-// Metodo principal
-int main(){
-    char Letra[5];
-    puts("Ingresa una letra del abecedario: ");
-    scanf("%s",&Letra);
-    if(strcmp(Letra,"a") == 0 || strcmp(Letra,"A") == 0 || strcmp(Letra,"e") == 0 || strcmp(Letra,"E") == 0
-    || strcmp(Letra,"i") == 0 || strcmp(Letra,"O") == 0 || strcmp(Letra,"o") == 0 || strcmp(Letra,"O") == 0
-    || strcmp(Letra,"u") == 0 || strcmp(Letra,"U") == 0){
-        puts("Es una vocal");
+
+// Función principal
+int main() {
+    char letra;
+
+    // Solicitar al usuario que ingrese una letra
+    printf("Ingresa una letra del abecedario: ");
+    scanf(" %c", &letra); // Usamos " %c" para ignorar espacios en blanco
+
+    // Verificar si la letra es una vocal (mayúscula o minúscula)
+    if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' ||
+        letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U') {
+        printf("ES UNA VOCAL\n");
+    } else {
+        printf("NO ES UNA VOCAL\n");
     }
-    else{
-        puts("No es una vocal. Es una letra normal");
-    }
+
     return 0;
-}// Fin del metodo
+} // Fin de la función principal
 
