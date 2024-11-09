@@ -1,25 +1,41 @@
-/* Autor:  Orlando Urbano Trejo (Lando)
+/*
+ * Autor:  Orlando Urbano Trejo (Lando)
  * Fecha:  26-07-2023
  * Correo: urbanorlando79@gmail.com
  *
- * Ejercicio: Determina si un numero es primo (Un numero es primo si es divisible entre 1 y entre si mismo */
+ * Descripción: Programa en C que determina si un número es primo.
+ * Un número es primo si solo es divisible entre 1 y sí mismo.
+ */
+
 #include <stdio.h>
-// Metodo principal
-int main(){
-    int Numero, Contador = 0;
-    puts("Ingresa un numero:");
-    scanf("%d",&Numero);
-    for(int i = 1; i<=Numero; i++){
-        if(Numero % i == 0){
-            Contador++;
+
+// Función principal
+int main() {
+    int numero, esPrimo = 1;
+
+    // Solicitar al usuario que ingrese un número
+    printf("Ingresa un número: ");
+    scanf("%d", &numero);
+
+    // Verificar si el número es primo
+    if (numero <= 1) {
+        esPrimo = 0; // Los números menores o iguales a 1 no son primos
+    } else {
+        for (int i = 2; i <= numero / 2; i++) {
+            if (numero % i == 0) {
+                esPrimo = 0; // Si el número es divisible por 'i', no es primo
+                break;
+            }
         }
     }
-    if(Contador > 2){
-        puts("No es primo");
+
+    // Mostrar el resultado
+    if (esPrimo) {
+        printf("Es primo\n");
+    } else {
+        printf("No es primo\n");
     }
-    else{
-        puts("Es primo");
-    }
+
     return 0;
-}// Fin del metodo
+} // Fin de la función principal
 
