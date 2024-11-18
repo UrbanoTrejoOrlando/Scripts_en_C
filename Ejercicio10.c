@@ -4,5 +4,6 @@ void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, f
 void calcularYMostrarDatos(char nombre[], float saldoActual);
 
 int main(){
+    int clientes;
 
 
