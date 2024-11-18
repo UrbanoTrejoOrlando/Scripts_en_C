@@ -7,5 +7,6 @@ int main(){
     int clientes;
     // Solicitar el número de clientes
     puts("Numero de clientes: ");
+    scanf("%d", &clientes);
 
 
