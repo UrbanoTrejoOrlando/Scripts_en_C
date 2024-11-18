@@ -17,6 +17,7 @@ int main(){
 		  obtenerDatosCliente(nombre, &saldoAnterior, &deposito, &montoCompras, &saldoActual);
 
 		  // Calcular y mostrar los resultados
+		  calcularYMostrarDatos(nombre, saldoActual);
 
 
 
