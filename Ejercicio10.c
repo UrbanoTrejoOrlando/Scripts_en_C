@@ -20,7 +20,8 @@ int main(){
 		  calcularYMostrarDatos(nombre, saldoActual);
 
 	 }
-
+		
+	 return 0;
 
 
 
