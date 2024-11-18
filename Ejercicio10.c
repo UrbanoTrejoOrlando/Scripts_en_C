@@ -16,6 +16,9 @@ int main(){
         // Obtener los datos del cliente
 		  obtenerDatosCliente(nombre, &saldoAnterior, &deposito, &montoCompras, &saldoActual);
 
+		  // Calcular y mostrar los resultados
+
+
 
 
 
