@@ -24,5 +24,6 @@ int main(){
 	 return 0;
 }
 // Función para obtener los datos de un cliente
+void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, float* montoCompras, float* saldoActual) {
 
 
