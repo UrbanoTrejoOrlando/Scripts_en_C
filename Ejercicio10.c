@@ -28,4 +28,6 @@ void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, f
     puts("Nombre cliente: ");
     scanf("%s", nombre);
 
+	  puts("Saldo anterior: ");
+
 
