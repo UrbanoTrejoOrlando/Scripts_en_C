@@ -14,7 +14,8 @@ int main(){
         float saldoAnterior, deposito, montoCompras, saldoActual;
 
         // Obtener los datos del cliente
-		  
+		  obtenerDatosCliente(nombre, &saldoAnterior, &deposito, &montoCompras, &saldoActual);
+
 
 
 
