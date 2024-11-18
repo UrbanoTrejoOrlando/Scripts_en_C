@@ -13,5 +13,8 @@ int main(){
         char nombre[50];
         float saldoAnterior, deposito, montoCompras, saldoActual;
 
+        // Obtener los datos del cliente
+		  
+
 
 
