@@ -19,6 +19,8 @@ int main(){
 		  // Calcular y mostrar los resultados
 		  calcularYMostrarDatos(nombre, saldoActual);
 
+	 }
+
 
 
 
