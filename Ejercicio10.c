@@ -9,4 +9,7 @@ int main(){
     puts("Numero de clientes: ");
     scanf("%d", &clientes);
 
+    for(int i = 0; i < clientes; i++){
+
+
 
