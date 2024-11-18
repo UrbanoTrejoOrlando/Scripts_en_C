@@ -23,4 +23,6 @@ int main(){
 		
 	 return 0;
 }
+// Función para obtener los datos de un cliente
+
 
