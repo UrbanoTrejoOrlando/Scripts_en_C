@@ -26,5 +26,6 @@ int main(){
 // Función para obtener los datos de un cliente
 void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, float* montoCompras, float* saldoActual) {
     puts("Nombre cliente: ");
+    scanf("%s", nombre);
 
 
