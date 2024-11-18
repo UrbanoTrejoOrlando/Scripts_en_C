@@ -11,6 +11,7 @@ int main(){
 
     for(int i = 0; i < clientes; i++){
         char nombre[50];
+        float saldoAnterior, deposito, montoCompras, saldoActual;
 
 
 
