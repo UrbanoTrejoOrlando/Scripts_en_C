@@ -5,5 +5,6 @@ void calcularYMostrarDatos(char nombre[], float saldoActual);
 
 int main(){
     int clientes;
+    // Solicitar el número de clientes
 
 
