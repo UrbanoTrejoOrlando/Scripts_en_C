@@ -49,6 +49,7 @@ void calcularYMostrarDatos(char nombre[], float saldoActual) {
 	 // Impresión de datos
 	 printf("Tu saldo actual %s es de %.2f pesos\n", nombre, pagoActual);
 	 printf("Tu pago minimo %s es de %.2f pesos\n", nombre, saldoMinimo);
+    printf("El pago para no generar intereses %s es de %.2f pesos\n", nombre, pagoInteres);
 
 
 
