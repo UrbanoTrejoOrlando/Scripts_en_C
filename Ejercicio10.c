@@ -43,6 +43,7 @@ void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, f
 // Función para calcular y mostrar el saldo actual, pago mínimo e intereses
 void calcularYMostrarDatos(char nombre[], float saldoActual) {
     float pagoActual = (saldoActual * 0.12) + 200;
+    float saldoMinimo = saldoActual * 0.15;
 
 
 
