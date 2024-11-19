@@ -44,6 +44,7 @@ void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, f
 void calcularYMostrarDatos(char nombre[], float saldoActual) {
     float pagoActual = (saldoActual * 0.12) + 200;
     float saldoMinimo = saldoActual * 0.15;
+    float pagoInteres = saldoActual * 0.85;
 
 
 
