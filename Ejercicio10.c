@@ -38,6 +38,8 @@ void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, f
 	 scanf("%f", montoCompras);
 
 	 puts("Saldo Actual: ");
+	 scanf("%f", saldoActual);
+
 
 
 
