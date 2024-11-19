@@ -40,6 +40,7 @@ void obtenerDatosCliente(char nombre[], float* saldoAnterior, float* deposito, f
 	 puts("Saldo Actual: ");
 	 scanf("%f", saldoActual);
 }
+// Función para calcular y mostrar el saldo actual, pago mínimo e intereses
 
 
 
