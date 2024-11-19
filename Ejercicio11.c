@@ -5,6 +5,8 @@
  * Correo: orlandourbanotrejo@gmail.com
  * Algoritmo que calcula la multiplicacion de dos numeros */
 
- // Prototipo de la función para calcular la multiplicación
+// Prototipo de la función para calcular la multiplicación
+float multiplicar(float numero1, float numero2);
+
 
 
