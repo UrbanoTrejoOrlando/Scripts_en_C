@@ -47,6 +47,7 @@ void calcularYMostrarDatos(char nombre[], float saldoActual) {
     float pagoInteres = saldoActual * 0.85;
 
 	 // Impresión de datos
+	 printf("Tu saldo actual %s es de %.2f pesos\n", nombre, pagoActual);
 
 
 
