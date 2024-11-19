@@ -12,6 +12,7 @@ int main(){
     float numero1, numero2, resultado = 0; 
 
     // Entrada de datos
+	 puts("Numero 1: ");
 
 
 
