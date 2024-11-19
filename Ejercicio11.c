@@ -11,5 +11,8 @@ float multiplicar(float numero1, float numero2);
 int main(){
     float numero1, numero2, resultado = 0; 
 
+    // Entrada de datos
+
+
 
 
