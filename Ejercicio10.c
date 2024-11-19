@@ -46,6 +46,8 @@ void calcularYMostrarDatos(char nombre[], float saldoActual) {
     float saldoMinimo = saldoActual * 0.15;
     float pagoInteres = saldoActual * 0.85;
 
+	 // Impresión de datos
+
 
 
 
