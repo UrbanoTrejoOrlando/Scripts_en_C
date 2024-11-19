@@ -5,4 +5,6 @@
  * Correo: orlandourbanotrejo@gmail.com
  * Algoritmo que calcula la multiplicacion de dos numeros */
 
+ // Prototipo de la función para calcular la multiplicación
+
 
