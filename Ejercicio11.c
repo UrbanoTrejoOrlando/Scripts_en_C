@@ -30,7 +30,7 @@ int main(){
 // Función que calcula la multiplicación de dos números
 float multiplicar(float numero1, float numero2) {
     return numero1 * numero2;
-
+}
 
 
 
