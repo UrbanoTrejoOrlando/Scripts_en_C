@@ -8,3 +8,5 @@
  // Prototipo de la función para calcular el interés
 void calcularIntereses(int tiempo, int tiempoTranscurrido, float* prestamo, float interes);
 
+int main(){
+
