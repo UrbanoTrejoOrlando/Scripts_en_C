@@ -14,4 +14,5 @@ int main(){
 
     // Entrada de datos
     puts("¿Anio en que solicito el prestamo?: ");
+    scanf("%d", &tiempo);
 
