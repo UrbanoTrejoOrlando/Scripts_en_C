@@ -5,3 +5,5 @@
  * Correo: orlandourbanotrejo@gmail.com
  * Algoritmo que determina los intereses que tiene una persona con el banco */
 
+ // Prototipo de la función para calcular el interés
+
