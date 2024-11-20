@@ -12,3 +12,5 @@ int main(){
     int tiempo, tiempoTranscurrido;
     float prestamo = 10000, interes = 0.27;
 
+    // Entrada de datos
+
