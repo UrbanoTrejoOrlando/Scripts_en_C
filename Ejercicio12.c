@@ -16,3 +16,6 @@ int main(){
     puts("¿Anio en que solicito el prestamo?: ");
     scanf("%d", &tiempo);
 
+	 puts("Anio actual: ");
+
+
