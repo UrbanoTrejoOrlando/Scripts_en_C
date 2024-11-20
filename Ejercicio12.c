@@ -17,5 +17,6 @@ int main(){
     scanf("%d", &tiempo);
 
 	 puts("Anio actual: ");
+    scanf("%d", &tiempoTranscurrido);
 
 
