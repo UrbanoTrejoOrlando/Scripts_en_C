@@ -24,6 +24,9 @@ int main(){
     // Imprimir el resultado
     printf("Resultado: %.2f\n", resultado);
 
+    return 0;
+
+
 
 
 
