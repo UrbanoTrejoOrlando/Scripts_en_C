@@ -21,6 +21,8 @@ int main(){
     // Llamar a la función para multiplicar los números
     resultado = multiplicar(numero1, numero2);
 
+    // Imprimir el resultado
+
 
 
 
