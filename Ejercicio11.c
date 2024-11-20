@@ -22,6 +22,8 @@ int main(){
     resultado = multiplicar(numero1, numero2);
 
     // Imprimir el resultado
+    printf("Resultado: %.2f\n", resultado);
+
 
 
 
