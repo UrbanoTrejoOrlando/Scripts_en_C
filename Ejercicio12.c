@@ -9,4 +9,5 @@
 void calcularIntereses(int tiempo, int tiempoTranscurrido, float* prestamo, float interes);
 
 int main(){
+    int tiempo, tiempoTranscurrido;
 
