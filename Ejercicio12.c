@@ -13,4 +13,5 @@ int main(){
     float prestamo = 10000, interes = 0.27;
 
     // Entrada de datos
+    puts("¿Anio en que solicito el prestamo?: ");
 
