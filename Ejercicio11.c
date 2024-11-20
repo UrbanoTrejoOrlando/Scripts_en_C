@@ -13,6 +13,8 @@ int main(){
 
     // Entrada de datos
 	 puts("Numero 1: ");
+	 scanf("%f", &numero1);
+
 
 
 
