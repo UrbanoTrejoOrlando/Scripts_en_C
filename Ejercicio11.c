@@ -18,6 +18,8 @@ int main(){
     puts("Numero 2: ");
     scanf("%f", &numero2);
 
+    // Llamar a la función para multiplicar los números
+
 
 
 
