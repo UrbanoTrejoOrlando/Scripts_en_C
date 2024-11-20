@@ -19,6 +19,7 @@ int main(){
     scanf("%f", &numero2);
 
     // Llamar a la función para multiplicar los números
+    resultado = multiplicar(numero1, numero2);
 
 
 
