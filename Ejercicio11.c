@@ -16,6 +16,7 @@ int main(){
 	 scanf("%f", &numero1);
 
     puts("Numero 2: ");
+    scanf("%f", &numero2);
 
 
 
