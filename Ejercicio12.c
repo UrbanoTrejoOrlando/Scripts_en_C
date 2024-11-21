@@ -19,4 +19,5 @@ int main(){
 	 puts("Anio actual: ");
     scanf("%d", &tiempoTranscurrido);
 
+    // Calcular e imprimir los intereses para cada año
 
