@@ -6,3 +6,5 @@
 
   * Algoritmo que determina el precio del boleto de un viaje */
 
+// Prototipo de la función para calcular el precio del boleto
+
