@@ -20,4 +20,5 @@ int main(){
     scanf("%d", &tiempoTranscurrido);
 
     // Calcular e imprimir los intereses para cada año
+    calcularIntereses(tiempo, tiempoTranscurrido, &prestamo, interes);
 
