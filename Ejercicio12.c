@@ -22,3 +22,4 @@ int main(){
     // Calcular e imprimir los intereses para cada año
     calcularIntereses(tiempo, tiempoTranscurrido, &prestamo, interes);
 
+	 return 0;
