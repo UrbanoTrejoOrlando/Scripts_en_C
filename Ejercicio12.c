@@ -26,4 +26,5 @@ int main(){
 	
 }
 // Función para calcular los intereses anuales
+void calcularIntereses(int tiempo, int tiempoTranscurrido, float* prestamo, float interes) {
 
