@@ -9,3 +9,5 @@
 // Prototipo de la función para calcular el precio del boleto
 float calcularPrecioBoleto(float precioBoleto, float numKilometros);
 
+int main(){
+
