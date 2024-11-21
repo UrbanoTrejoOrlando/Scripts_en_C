@@ -15,6 +15,9 @@ int main(){
 	 // Entrada de datos
 	 puts("Numero de kilometros a recorrer: ");
 	 scanf("%f", &numKilometros);
+	
+    // Calcular el precio del boleto
+
 
 
 
