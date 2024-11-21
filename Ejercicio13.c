@@ -12,3 +12,5 @@ float calcularPrecioBoleto(float precioBoleto, float numKilometros);
 int main(){
     float precioBoleto = 20.50, numKilometros, precio = 0; 
 
+	 // Entrada de datos
+
