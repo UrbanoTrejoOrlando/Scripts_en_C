@@ -30,4 +30,4 @@ void calcularIntereses(int tiempo, int tiempoTranscurrido, float* prestamo, floa
     for (int i = tiempo; i <= tiempoTranscurrido; i++) {
         *prestamo += (*prestamo * interes); // Actualiza el prestamo con el interés
         printf("El interes de %d es de: $%.2f\n", i, *prestamo);
-
+	 }
