@@ -20,7 +20,7 @@ int main(){
     calcularIntereses(tiempo, tiempoTranscurrido, &prestamo, interes);
 
 	 return 0;
-
+}
 
 
 
