@@ -19,6 +19,8 @@ int main(){
     // Calcular el precio del boleto
     calcularIntereses(tiempo, tiempoTranscurrido, &prestamo, interes);
 
+	 return 0;
+
 
 
 
