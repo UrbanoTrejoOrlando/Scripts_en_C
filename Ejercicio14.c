@@ -16,4 +16,5 @@ int main(){
 
     // Entrada de datos
     printf("\nElige una opcion: ");
+    scanf("%d", &opcion);
 
