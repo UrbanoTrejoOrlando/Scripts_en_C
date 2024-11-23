@@ -15,4 +15,5 @@ int main(){
     float dolar = 16.89, euro = 0.053, resultado = 0;
 
     // Entrada de datos
+    printf("\nElige una opcion: ");
 
