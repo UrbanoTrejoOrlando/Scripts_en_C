@@ -18,3 +18,5 @@ int main(){
     printf("\nElige una opcion: ");
     scanf("%d", &opcion);
 
+	 // Condiciones para elegir la opción
+
