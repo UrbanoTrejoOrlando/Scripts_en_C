@@ -17,6 +17,7 @@ int main(){
 	 scanf("%f", &numKilometros);
 	
     // Calcular el precio del boleto
+    calcularIntereses(tiempo, tiempoTranscurrido, &prestamo, interes);
 
 
 
