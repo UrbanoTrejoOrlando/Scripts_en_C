@@ -7,4 +7,5 @@
 
 // Prototipo de las funciones para la conversión de divisas
 float convertirAEuros(float dinero, float euro);
+float convertirADolares(float dinero, float dolar);
 
