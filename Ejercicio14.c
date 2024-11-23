@@ -5,3 +5,5 @@
  * Correo: orlandourbanotrejo@gmail.com
  * Algoritmo que calcula la cantidad de euros a monedas y viceversa */
 
+// Prototipo de las funciones para la conversión de divisas
+
