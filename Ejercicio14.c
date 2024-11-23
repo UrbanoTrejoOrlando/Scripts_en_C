@@ -6,4 +6,5 @@
  * Algoritmo que calcula la cantidad de euros a monedas y viceversa */
 
 // Prototipo de las funciones para la conversión de divisas
+float convertirAEuros(float dinero, float euro);
 
