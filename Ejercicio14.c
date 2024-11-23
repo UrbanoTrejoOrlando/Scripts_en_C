@@ -14,3 +14,5 @@ int main(){
     int opcion, dinero;
     float dolar = 16.89, euro = 0.053, resultado = 0;
 
+    // Entrada de datos
+
