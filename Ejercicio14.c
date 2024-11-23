@@ -12,4 +12,5 @@ float convertirADolares(float dinero, float dolar);
 int main(){
     printf("-------- MENU DE CONVERSIONES --------\n1) Euros\n2) Dolares");
     int opcion, dinero;
+    float dolar = 16.89, euro = 0.053, resultado = 0;
 
