@@ -31,5 +31,6 @@ int main(){
 void calcularPresupuesto(int presupuesto, float* urgencias, float* pediatria, float* traumatologia) {
     *urgencias = presupuesto * 0.37;
     *pediatria = presupuesto * 0.42;
+    *traumatologia = presupuesto * 0.21;
 
 
