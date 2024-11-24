@@ -8,4 +8,6 @@
 // Prototipo de la función para calcular los presupuestos de las áreas
 void calcularPresupuesto(int presupuesto, float* urgencias, float* pediatria, float* traumatologia);
 
+int main(){
+
 
