@@ -21,4 +21,5 @@ int main(){
 
     // Mostrar los resultados
     printf("Presupuesto Urgencias: $%.2f\n", urgencias);
+    printf("Presupuesto Pediatria: $%.2f\n", pediatria);
 
