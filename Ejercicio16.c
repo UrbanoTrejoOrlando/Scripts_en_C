@@ -9,5 +9,6 @@
 void calcularPresupuesto(int presupuesto, float* urgencias, float* pediatria, float* traumatologia);
 
 int main(){
+    int presupuesto;
 
 
