@@ -19,4 +19,5 @@ int main(){
     // Calcular el presupuesto para cada área
     calcularPresupuesto(presupuesto, &urgencias, &pediatria, &traumatologia);
 
+    // Mostrar los resultados
 
