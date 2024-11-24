@@ -28,5 +28,6 @@ int main(){
 }
 
 // Función para calcular los presupuestos de las tres áreas
+void calcularPresupuesto(int presupuesto, float* urgencias, float* pediatria, float* traumatologia) {
 
 
