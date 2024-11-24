@@ -32,5 +32,5 @@ void calcularPresupuesto(int presupuesto, float* urgencias, float* pediatria, fl
     *urgencias = presupuesto * 0.37;
     *pediatria = presupuesto * 0.42;
     *traumatologia = presupuesto * 0.21;
-
+}
 
