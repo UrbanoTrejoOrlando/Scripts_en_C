@@ -27,3 +27,6 @@ int main(){
 	 return 0;
 }
 
+// Función para calcular los presupuestos de las tres áreas
+
+
