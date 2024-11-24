@@ -16,4 +16,6 @@ int main(){
     puts("Presupuesto anual:");
     scanf("%d", &presupuesto);
 
+    // Calcular el presupuesto para cada área
+
 
