@@ -12,4 +12,6 @@ int main(){
     int presupuesto;
     float urgencias = 0, pediatria = 0, traumatologia = 0; 
 
+	 // Datos de entrada
+
 
