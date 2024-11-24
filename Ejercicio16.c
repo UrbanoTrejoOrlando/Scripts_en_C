@@ -20,4 +20,5 @@ int main(){
     calcularPresupuesto(presupuesto, &urgencias, &pediatria, &traumatologia);
 
     // Mostrar los resultados
+    printf("Presupuesto Urgencias: $%.2f\n", urgencias);
 
