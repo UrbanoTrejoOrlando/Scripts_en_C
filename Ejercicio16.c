@@ -24,3 +24,6 @@ int main(){
     printf("Presupuesto Pediatria: $%.2f\n", pediatria);
     printf("Presupuesto Traumatologia: $%.2f\n", traumatologia);
 
+	 return 0;
+}
+
