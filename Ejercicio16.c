@@ -14,5 +14,6 @@ int main(){
 
 	 // Datos de entrada
     puts("Presupuesto anual:");
+    scanf("%d", &presupuesto);
 
 
