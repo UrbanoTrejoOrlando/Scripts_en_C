@@ -5,3 +5,5 @@
  * Correo: orlandourbanotrejo@gmail.com
  * Algoritmo que calcula el presupuesto anual en tres areas de un hospital */
 
+// Prototipo de la función para calcular los presupuestos de las áreas
+
