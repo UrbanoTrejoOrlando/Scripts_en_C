@@ -17,5 +17,6 @@ int main(){
     scanf("%d", &presupuesto);
 
     // Calcular el presupuesto para cada área
+    calcularPresupuesto(presupuesto, &urgencias, &pediatria, &traumatologia);
 
 
